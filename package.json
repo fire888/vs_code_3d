@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "code3d.helloWorld",
-        "title": "Hello World"
+        "command": "code3d.show",
+        "title": "Code3DDDDDDDDDDDD"
       }
     ]
   },
