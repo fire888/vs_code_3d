@@ -34,6 +34,7 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
+    "three": "^0.162.0",
     "vsce": "^2.15.0"
   }
 }
