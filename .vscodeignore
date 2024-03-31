@@ -8,3 +8,7 @@ vsc-extension-quickstart.md
 **/*.map
 **/.eslintrc.json
 **/.vscode-test.*
+_trash
+_trash/**
+src/js_dev
+src/js_dev/**

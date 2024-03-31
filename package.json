@@ -24,7 +24,8 @@
     "pretest": "npm run lint",
     "test": "vscode-test",
     "build": "(cd src/js_dev && npm run build)",
-    "dev": "(cd src/js_dev && npm run dev)"
+    "dev": "(cd src/js_dev && npm run dev)",
+    "build_vsix": "vsce package"
   },
   "devDependencies": {
     "@types/mocha": "^10.0.6",
