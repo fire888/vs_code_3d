@@ -8,13 +8,7 @@ module.exports.getWebviewContent = function getWebviewContent (path) {
 				<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 			</head>
 			<body>
-			<script type="importmap">
-			    {
-				    "imports": {
-					    "three": "${ path.threejsPathSrc }"
-				    }
-			    }
-		    </script>
+			<div id="3d-graph"></div>
             <script type="module" src="${ path.view3dPathSrc }"></script>
         </body>
     </html>`

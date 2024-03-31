@@ -26,12 +26,12 @@ function activate(context) {
 				}
 			);
 
-			const threejsPath = vscode.Uri.joinPath(context.extensionUri, 'node_modules/three/build/three.module.js')
-			const threejsPathSrc = currentPanel.webview.asWebviewUri(threejsPath);
-			const view3dPath = vscode.Uri.joinPath(context.extensionUri, 'src/buildjs/view3d.js')
+			//const threejsPath = vscode.Uri.joinPath(context.extensionUri, 'node_modules/three/build/three.module.js')
+			//const threejsPathSrc = currentPanel.webview.asWebviewUri(threejsPath);
+			const view3dPath = vscode.Uri.joinPath(context.extensionUri, 'src/buildjs/index.js')
 			const view3dPathSrc = currentPanel.webview.asWebviewUri(view3dPath)
 			currentPanel.webview.html = htmlStroke.getWebviewContent({
-				threejsPathSrc,
+				//threejsPathSrc,
 				view3dPathSrc,
 			});
 
