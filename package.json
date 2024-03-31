@@ -22,7 +22,9 @@
   "scripts": {
     "lint": "eslint .",
     "pretest": "npm run lint",
-    "test": "vscode-test"
+    "test": "vscode-test",
+    "build": "(cd src/js_dev && npm run build)",
+    "dev": "(cd src/js_dev && npm run dev)"
   },
   "devDependencies": {
     "@types/mocha": "^10.0.6",

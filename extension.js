@@ -6,7 +6,6 @@ function activate(context) {
 	
 	let currentPanel
 
-
 	let disposable = vscode.commands.registerCommand('code3d.show', function () {
 		const columnToShowIn = vscode.window.activeTextEditor
         ? vscode.window.activeTextEditor.viewColumn
@@ -26,12 +25,9 @@ function activate(context) {
 				}
 			);
 
-			//const threejsPath = vscode.Uri.joinPath(context.extensionUri, 'node_modules/three/build/three.module.js')
-			//const threejsPathSrc = currentPanel.webview.asWebviewUri(threejsPath);
-			const view3dPath = vscode.Uri.joinPath(context.extensionUri, 'src/buildjs/index.js')
+			const view3dPath = vscode.Uri.joinPath(context.extensionUri, 'src/js_build/index.js')
 			const view3dPathSrc = currentPanel.webview.asWebviewUri(view3dPath)
 			currentPanel.webview.html = htmlStroke.getWebviewContent({
-				//threejsPathSrc,
 				view3dPathSrc,
 			});
 
