@@ -36,8 +36,8 @@ open buildjs in Visual Studio Code
 4. in command panel write **code3DDDDDDDDD...**  
 
 for open console for develop
-1. in opened window press **CNTRL+SHIFT+P**
-2. in command panel write **Developer: Toggle Develper Tools**
+5. in opened window press **CNTRL+SHIFT+P**
+6. in command panel write **Developer: Toggle Develper Tools**
 
 for make Visual Studio Code extension
 ``` 
