@@ -34,10 +34,7 @@
     "@vscode/test-cli": "^0.0.6",
     "@vscode/test-electron": "^2.3.9",
     "eslint": "^8.56.0",
-    "typescript": "^5.3.3"
-  },
-  "dependencies": {
-    "three": "^0.162.0",
+    "typescript": "^5.3.3",
     "vsce": "^2.15.0"
   }
 }
