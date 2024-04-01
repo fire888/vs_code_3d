@@ -53,7 +53,7 @@ y
 y
 ``` 
 
-for add extension file to Visual Studio Code as extension
+for install result to Visual Studio Code as extension, from builded extension file
 ---
 1. open Extensions in left bar
 2. click on **[...]** near EXTENSIONS in top side
