@@ -34,7 +34,7 @@ open buildjs in Visual Studio Code
 2. press **F5**
 3. in opened window press **CNTRL+SHIFT+P**
 4. in command panel write **code3DDDDDDDDD...**  
-for open console for develop
+for open console for develop:
 5. in opened window press **CNTRL+SHIFT+P**
 6. in command panel write **Developer: Toggle Develper Tools**
 
