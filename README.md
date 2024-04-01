@@ -45,7 +45,7 @@ for open console for develop:
 5. in opened window press **CNTRL+SHIFT+P**
 6. in command panel write **Developer: Toggle Develper Tools**
 
-for make Visual Studio Code extension
+for build Visual Studio Code extension file
 ---
 ``` 
 npm run build_vsix
@@ -53,7 +53,7 @@ y
 y
 ``` 
 
-for add builded extension to Visual Studio Code as extension
+for add extension file to Visual Studio Code as extension
 ---
 1. open Extensions in left bar
 2. click on **[...]** near EXTENSIONS in top side
