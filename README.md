@@ -41,6 +41,8 @@ for open console for develop:
 for make Visual Studio Code extension
 ``` 
 npm run build_vsix
+y
+y
 ``` 
 
 for add builded extension to Visual Studio Code as extension
@@ -55,7 +57,7 @@ for add builded extension to Visual Studio Code as extension
 
 # Gides for help
 guide for build and publich
-https://code.visualstudio.com/api/working-with-extensions/publishing-extension
+https://code.visualstudio.com/api/working-with-extensions/publishing-extension  
 guide webview api
 https://code.visualstudio.com/api/extension-guides/webview 
 
