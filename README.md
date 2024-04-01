@@ -1,5 +1,4 @@
 # code3d README
----
 
 nodejs version working for me 14.21.3 and 18.15.0  
 npm version 6.14.18
@@ -66,7 +65,6 @@ for add builded extension to Visual Studio Code as extension
 
 
 # Gides for help
----
 guide for build and publich
 https://code.visualstudio.com/api/working-with-extensions/publishing-extension  
 guide webview api
