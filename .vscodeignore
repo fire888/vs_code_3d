@@ -12,3 +12,5 @@ _trash
 _trash/**
 src/js_dev
 src/js_dev/**
+.idea
+.idea/
