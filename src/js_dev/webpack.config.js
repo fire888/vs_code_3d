@@ -1,11 +1,8 @@
-const exec = require('child_process').execSync
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CopyPlugin = require('copy-webpack-plugin');
 const webpack = require('webpack');
 
-const hashCommit = exec('git log -1 --pretty=format:%h').toString().trim();
 
 module.exports = (env, { mode }) => ({
     entry: './src/index.js',
@@ -25,7 +22,6 @@ module.exports = (env, { mode }) => ({
  		}),
         new webpack.DefinePlugin({
             __MODE__: JSON.stringify(mode),
-			__HASH_COMMIT__: JSON.stringify(hashCommit),
         }),
         new webpack.ProvidePlugin({
             'cannon': 'cannon',

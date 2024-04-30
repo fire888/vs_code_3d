@@ -4,7 +4,7 @@
   "description": "",
   "version": "0.0.1",
   "engines": {
-    "vscode": "^1.87.0"
+    "vscode": "^1.88.0"
   },
   "categories": [
     "Other"
@@ -15,7 +15,7 @@
     "commands": [
       {
         "command": "code3d.show",
-        "title": "Code3DDDDDDDDDDDD"
+        "title": "code3DDDDDDDDDDDDDDDD"
       }
     ]
   },
@@ -30,14 +30,13 @@
   "devDependencies": {
     "@types/mocha": "^10.0.6",
     "@types/node": "18.x",
-    "@types/vscode": "^1.87.0",
-    "@vscode/test-cli": "^0.0.6",
+    "@types/vscode": "^1.88.0",
+    "@vscode/test-cli": "^0.0.8",
     "@vscode/test-electron": "^2.3.9",
-    "eslint": "^8.56.0",
-    "typescript": "^5.3.3",
-    "vsce": "^2.15.0"
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.5"
   },
   "dependencies": {
-    "vscode": "^1.1.37"
+    "vsce": "^2.15.0"
   }
 }

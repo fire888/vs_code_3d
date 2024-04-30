@@ -1,16 +1,21 @@
-const htmlStroke = require('./src/htmlStroke')
 const vscode = require('vscode');
+const htmlStroke = require('./src/htmlStroke')
+
+/**
+ * @param {vscode.ExtensionContext} context
+ */
 
 function activate(context) {
-	console.log('Congratulations, your extension "code3d" is now active!');
-	
+	console.log('Congratulations, your extension "code3d" is now active!')
+
 	let currentPanel
 
 	let disposable = vscode.commands.registerCommand('code3d.show', function () {
+		vscode.window.showInformationMessage('Hello World from code3d!');
+
 		const columnToShowIn = vscode.window.activeTextEditor
         ? vscode.window.activeTextEditor.viewColumn
         : undefined;
-
 
 		if (currentPanel) {
 			currentPanel.reveal(columnToShowIn);
@@ -50,6 +55,7 @@ function activate(context) {
 
 	context.subscriptions.push(disposable);
 }
+
 
 function deactivate() {}
 

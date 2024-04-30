@@ -23,6 +23,9 @@ export class UpdaterByFrame {
             if (this.isRunning) {
                 requestAnimationFrame(animate)
             }
+            if (!this.isRunning) {
+                return;
+            }
 
             for (let i = 0; i < this.functions.length; ++i) {
                 this.functions[i]()
