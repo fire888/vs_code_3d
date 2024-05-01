@@ -432,6 +432,14 @@ export default Kapsule({
         state.loadComplete = state.scene.visible = !waitForLoadComplete;
 
         window.scene = state.scene;
+
+        window.addEventListener('resize', () => {
+            state.container.style.width = window.innerWidth + 'px'
+            state.container.style.height = window.innerHeight + 'px'
+            state.renderer.setSize( window.innerWidth, window.innerHeight)
+            state.camera.aspect = window.innerWidth/window.innerHeight
+            state.camera.updateProjectionMatrix();
+        })
     },
 
     update(state, changedProps) {

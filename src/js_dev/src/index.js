@@ -1,4 +1,4 @@
 import '../template/style.css'
-import "./app/app.js"
+import "./app/appGrpph.js"
 
 
